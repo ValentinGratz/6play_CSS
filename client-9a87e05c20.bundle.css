@@ -1,0 +1,176 @@
+
+
+.gemius__wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%
+}
+
+.ad-display {
+    display: none
+}
+
+.ad-display iframe {
+    position: absolute;
+    height: 100%;
+    width: 280px;
+    min-width: 100%;
+    max-height: 100vh
+}
+
+.ad-display__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 7px 15px;
+    background: rgba(60, 63, 72, .7);
+    border-radius: 2px;
+    text-decoration: none;
+    color: #fff;
+    z-index: 1
+}
+
+.ad-display__close--button {
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background: none
+}
+
+.ad-display__close--button > img {
+    width: 20px;
+    filter: drop-shadow(1px 1px 1px black)
+}
+
+.ad-display--displayed {
+    display: block
+}
+
+.ad-display--hab_player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 8
+}
+
+.ad-display--parallax_rub {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+    clip: rect(0, 0, 0, 0)
+}
+
+.folder-pub-mosaic {
+    flex: 0 0 auto;
+    width: calc(100% + 300px);
+    height: 100%
+}
+
+@media (max-width: 479px) {
+    .folder-pub-mosaic {
+        width: 100%
+    }
+}
+
+.folder-pub-mosaic > a {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.ad-display--parallax_prg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    clip: rect(0 100vw 0 0);
+    will-change: transform;
+    z-index: -1
+}
+
+.tvshow__hole {
+    position: relative;
+    height: 0
+}
+
+@media (max-width: 479px) {
+    .tvshow__hole {
+        margin: 0 -20px
+    }
+}
+
+.tvshow__hole--open {
+    height: 100vh;
+    margin-bottom: 30px
+}
+
+.tvshow__ad-link, .tvshow__ad-link > a {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.ad-display--bouton_sponsor {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 200px;
+    transform: scale(.75);
+    transform-origin: right bottom;
+    transition: transform .2s;
+    z-index: 7;
+    overflow: hidden
+}
+
+@media (max-width: 749px) {
+    .ad-display--bouton_sponsor {
+        transform: scale(.6)
+    }
+}
+
+@media (min-width: 750px) {
+    .ad-display--bouton_sponsor:focus, .ad-display--bouton_sponsor:hover {
+        transform: scale(1)
+    }
+}
+
+.ad-display--pre_home {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000
+}
+
+.ad-display--pre_home .ad-display__close {
+    top: 42px
+}
+
+.ad-display--pre_home .ad-display__close span {
+    display: block
+}
+
+@media (max-width: 479px) {
+    .ad-display--pre_home .ad-display__close span {
+        display: none
+    }
+}
+
+.ad-display--pre_home .ad-display__close span:first-child {
+    display: none
+}
+
+@media (max-width: 479px) {
+    .ad-display--pre_home .ad-display__close span:first-child {
+        display: block
+    }
+}

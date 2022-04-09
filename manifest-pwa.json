@@ -1,0 +1,51 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "name": "6play",
+  "short_name": "6play",
+  "orientation": "any",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "6play, regardez des programmes TV en Replay ou en Direct",
+  "background_color": "#0b0426",
+  "theme_color": "#0b0426",
+  "lang": "fr",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "id": "fr.m6.m6replay",
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=fr.m6.m6replay&hl=fr"
+    }
+  ]
+}

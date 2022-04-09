@@ -1,0 +1,78 @@
+.error-emoticon {
+    width: 100%;
+    height: 100%
+}
+
+.error-emoticon__face {
+    fill: #e8e8e8
+}
+
+.error-emoticon__drop {
+    fill: #69b9f8;
+    transform-origin: center center;
+    animation-name: errorEmoticonDropFade;
+    animation-duration: 2s;
+    animation-delay: .3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in
+}
+
+.error-emoticon__drop--single {
+    fill: #69b9f8;
+    transform-origin: center center;
+    animation-name: errorEmoticonDropFadeOnce;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(.66, 0, 1, 1)
+}
+
+.error-emoticon__eyes {
+    fill: #000
+}
+
+body .root-service-logo .root-service-logo__play {
+    transition: fill-opacity .3s ease;
+    fill: #babcc4
+}
+
+body .root-service-logo.root-service-logo--app-header .root-service-logo__play {
+    fill: #fff;
+    fill-opacity: .4
+}
+
+body .root-service-logo.root-service-logo--onboarding {
+    height: auto
+}
+
+body .root-service-logo.root-service-logo--onboarding svg {
+    width: 50%
+}
+
+body .root-service-logo.root-service-logo--onboarding .root-service-logo__play {
+    fill: #fff;
+    fill-opacity: .4
+}
+
+body .root-service-logo.root-service-logo--white-bg .root-service-logo__six {
+    fill: #575b67
+}
+
+body .root-service-logo.root-service-logo--blue .root-service-logo__play, body .root-service-logo.root-service-logo--blue .root-service-logo__six {
+    fill: #69b9f8
+}
+
+body .root-service-logo.root-service-logo--dark-play .root-service-logo__play {
+    fill: #747883
+}
+
+body .root-service-logo.root-service-logo--effect .root-service-logo__play {
+    fill-opacity: .4
+}
+
+body .root-service-logo.root-service-logo--effect:focus .root-service-logo__play, body .root-service-logo.root-service-logo--effect:hover .root-service-logo__play {
+    fill-opacity: 1
+}
+
+body .root-service-logo--dark-bg path, body .root-service-logo--dark-bg polygon, body .root-service-logo--landing path, body .root-service-logo--landing polygon {
+    fill: #fff
+}
